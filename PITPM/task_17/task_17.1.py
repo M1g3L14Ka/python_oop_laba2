@@ -47,3 +47,20 @@ class Employee:
     def Getage(self):
         return self.__age
 
+    def Setname(self, name):
+        self.__name = name
+
+    def Setsalary(self, salary):
+        self.__salary = salary
+
+    def Setage(self, age):
+        self.__age = age
+
+
+worker = Employee('', '', '')
+
+worker.Setname('Misha')
+worker.Setsalary('34343')
+worker.Setage('18')
+
+print("Имя:", worker.Getname(), "\nЗарплата:", worker.Getsalary(), "\nВозраст:", worker.Getage())

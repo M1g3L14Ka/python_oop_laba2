@@ -13,4 +13,10 @@ class Employee:
         return f"{self.__salary}$"
 
 
+employees = [
+    Employee('john', 11412),
+    Employee('eric', 12313),
+    Employee('kyle', 12231),
+]
+
 

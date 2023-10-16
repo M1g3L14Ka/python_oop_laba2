@@ -12,18 +12,8 @@ class User:
     def getSurname(self):
         return self.__surname
 
-    def setName(self, name):
-        self.__name = name
 
-    def setSurname(self, surname):
-        self.__surname = surname
-
-
-user = User('', '')
-
-user.setName("Alice")
-user.setSurname("Smith")
-
+user = User('john', 'smit')
 print(user.getName())
 print(user.getSurname())
 

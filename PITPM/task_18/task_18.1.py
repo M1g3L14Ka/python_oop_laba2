@@ -34,4 +34,25 @@ class Employee:
     def Getname(self):
         return self.__name
 
+    def Getsalary(self):
+        return f"{self.__salary}$"
 
+    def Getage(self):
+        return self.__age
+
+    def Setage(self, age):
+        if age < 0:
+            print("Age must be between 0 and 120.")
+        else:
+            self.__age = age
+
+        if age > 120:
+            print("Age must be between 0 and 120.")
+        else:
+            self.__age = age
+
+
+worker = Employee('Misha', 4636, 26)
+print("Имя:", worker.Getname())
+print("Зарплата:", worker.Getsalary())
+print("Возраст:", worker.Getage())

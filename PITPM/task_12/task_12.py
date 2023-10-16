@@ -1,4 +1,4 @@
-class Employee:  #создать класс и задать ему стандартные методы
+class Employee:
     def __init__(self, name, salary):
         self.name = name
         self.salary = float(salary)
@@ -10,14 +10,5 @@ class Employee:  #создать класс и задать ему станда�
         return self.salary
 
     def upp_salary(self):
-        self.salary *= 1.10  # Увеличение зарплаты на 10%
-
-
-worker = Employee('misha', 35215.542)
-
-print(f"Имя : {worker.display_name()}")
-print(f"Зарплата : {worker.display_salary()}")
-
-worker.upp_salary()
-print(f"Увеличенная зарплата: {worker.display_salary()}")
+        self.salary
 

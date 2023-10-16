@@ -35,3 +35,6 @@ users = [
     Student1('user7'),
 ]
 
+for user in users:  # задание 1, вывести только имена работников, без студентов
+    if isinstance(user, Employee1):
+        print(user.name)
