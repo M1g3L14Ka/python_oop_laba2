@@ -1,10 +1,7 @@
-class Employee:
-    def show(self):  # задание 1, создание и вызов текстового метода
-        return "jsOpBsCM" # текст взят с git, а не придуман в ручную
+class User:
+    def show(self):
+        return '+++'
 
-    def display_info(self):
-        print(f"текст: {self.show()}")
 
-text = Employee()
-
-text.display_info()
+user = User()
+print(user.show())
